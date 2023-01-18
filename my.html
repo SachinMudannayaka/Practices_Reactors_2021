@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> MW</title>
+<style>
+def{pisition=absolute;
+    top:300px;
+	}
+</style>
+<link rel="stylesheet" href="my.css">
+</head>
+<body>
+
+<div class='def'><button onclick="document.getElementById('myImage').src='default.jpg'">DEFAULT</button>
+<button style="background-color: darkgoldenrod;" onclick="document.getElementById('myImage').src='happy.png'">HAPPY FACE</button>
+<button style="background-color: darkred;"onclick="document.getElementById('myImage').src='celebration.png'">CELEBRATION FACE</button>
+<img id='myImage' src="default.jpg" style="width:100px">
+<button style="background-color: violet;" onclick="document.getElementById('myImage').src='sad.jpg'">SAD FACE</button>
+<button style="background-color: blue;"onclick="document.getElementById('myImage').src='cry.jpg.'">CRYING FACE</button>
+</div>
+<p id='roar'>This is my first Java Script</p>
+<button onclick="document.getElementById('roar').style.fontSize='70px'">Zoom In</button>
+<button onclick="document.getElementById('roar').style.fontSize='20px'">Zoom Out</button>
+
+<button type='button' onclick="document.getElementById('hide').style.display='block'">CLICK HERE TO SHOW TIP</button>
+<p id='hide' style="display:none">only keep your dreams and ambitions in your mind,never tell them other.</p>
+<button type='button' onclick="document.getElementById('hide').style.display='none'">CLICK HERE HIDE TO TIP</button>
+
+
+</body>
+</html>

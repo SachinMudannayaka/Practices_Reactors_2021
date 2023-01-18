@@ -1,0 +1,10 @@
+.wrapper{
+	margin:0 auto;
+	width:1000px;
+	height:10px;
+}
+
+iframe{
+	width:50%;
+	height:100px;
+}
